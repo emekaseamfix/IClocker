@@ -1,0 +1,201 @@
+/* You can add global styles to this file, and also import other style files */
+/* res pnsiveness */
+/* media query */
+body{
+    overflow-x: hidden;
+    background: purple;
+}
+
+
+.phone-pic{
+    width:auto ;
+    height: auto;
+}
+
+.btn-mi{
+    background-color: #8e24aa !important;
+    color: #fff !important;
+    border: 1px solid #8e24aa;
+    border-radius: 30px;
+    height: 40px;
+    width: 150px;
+}
+
+.title-underline{
+    /* width: 200px;
+    height: 10px;
+    margin: 0, auto;
+    to overwrite background: blue!important; */
+
+    height: 2px;
+    width: 200px;
+    background: linear-gradient(212deg,#FF3CAC,#784BA0,#2B86C5);
+    display: block;
+    content: "";
+    margin: 0.75rem auto 0;
+
+}
+
+.input-group-append{
+    background-color: #212529 !important;
+    color: #fff !important;
+    border:1px solid;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -1px;
+} 
+
+i.fab {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px black;
+    padding: 0.5em 0.6em;
+    outline-color: black;
+  
+  }
+
+  i.fa {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+  
+  }
+
+
+  .footertext{
+background-color: #212529;
+  }
+
+
+   /* Stackoverflow preview fix, please ignore */
+   /* .navbar-nav {
+    flex-direction: row;
+  }
+  
+  .nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+  }
+   */
+  /* Fixes dropdown menus placed on the right side */
+  /* .ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+  } */
+
+
+
+
+@media screen and (max-width:576px){
+
+    body{
+        background:white;
+        
+    }
+
+    .company{
+        display: block;
+        order: initial;
+    }
+
+}
+
+@media screen and (min-width:768px){
+
+    body{
+        background:white;
+    }
+
+}
+
+@media screen and (min-width:992px){
+
+    body{
+        background:white;
+    }
+}
+
+@media screen and (min-width:1200px){
+
+    body{
+        background:white;
+    }
+
+}
+
+/* 
+.btn {
+    background-color: #8e24aa !important;
+    color: #fff !important;
+    border: 1px solid;
+    border-radius: 30px;
+    
+}
+
+.card-title{
+    color: #643685 !important;
+}
+
+.primary-btn{
+ background-color: #643685 !important;
+}
+  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
